@@ -1,0 +1,71 @@
+@tailwind base;
+
+/* Firefox */
+* {
+  scrollbar-width:unset;
+  scrollbar-color: rgb(29, 29, 29) var(--primary);
+  
+}
+
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background:  #171717;
+  border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+  height:10px;
+  background-color: #737373;
+  border-radius: 50px;
+  border: 2px solid #24013e;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-300.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-500.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-600.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-700.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/inter/v13/latin/inter-latin-800.woff2') format('woff2');
+  }

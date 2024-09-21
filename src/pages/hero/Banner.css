@@ -1,0 +1,17 @@
+@keyframes move {
+    0% { transform: translateX(-5%); }
+    50% { transform: translateX(5%); }
+    100% { transform: translateX(-5%); }
+  }
+  
+  .animate-move {
+    animation: move 4s ease-in-out infinite;
+  }
+  @keyframes moves {
+    0% { transform: translateX(-10%); }
+    50% { transform: translateX(10%); }
+    100% { transform: translateX(-10%); }
+  }
+  .animate-moves {
+    animation: moves 4s ease-in-out infinite;
+  }

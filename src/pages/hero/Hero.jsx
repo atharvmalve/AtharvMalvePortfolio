@@ -8,9 +8,9 @@ function Hero() {
   return (
     <div className=' xl:flex justify-center'>
       <div>
-        <div className='   flex  justify-center  '>
-          <About/>
+        <div className='    xl:flex  xl:flex-row-reverse justify-center  '>
           <HeroBanner/>
+          <About/>
         </div>
         <div className='flex justify-center'>
           <HeroSkills/>
